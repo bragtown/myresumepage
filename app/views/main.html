@@ -1,0 +1,107 @@
+
+<div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">
+              <img class = "meImg" src="images/Jordan.jpg"></img>  Jordan Braginton  </h3>
+              
+              
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#blog">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li>
+                  <div class = "button_bar">
+                    <button type="button" class="btn btn-default btn-sm" ng-click = "changeText('cover')">Cover Letter</button>
+                    <button type="button" class="btn btn-primary btn-sm" ng-click = "changeText('web')">Web Skills</button>
+                    <button type="button" class="btn btn-info btn-sm" ng-click = "changeText('people')">People Skills</button>
+                    <button type="button" class="btn btn-warning btn-sm" ng-click = "changeText('references')">References</button>
+                    <button type="button" class="btn btn-danger btn-sm" ng-click = "changeText('education')">Education</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <!-- <div class="inner cover">
+            <h1 class="cover-heading">Cover your page.</h1>
+            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+            </p>
+          </div> -->
+
+
+    <div class = "text_bar">
+      <div ng-show = "showCover">
+        <div class="inner cover">
+          <h2 class="cover-headnig"></h2>
+          <p class="lead">I love to code; I learned this oddly enough while taking human physiology. I found that while physiology is fascinating my computer science class gave me an opportunity to create, to spend my time thinking and examining, and to solve problems in a way that is always new and exciting. I spent all my spare moments working on the next project in the class and before I knew it I had finished all the projects for the class, and only a month into the course!</p>
+          <p class="lead">Since, I attended an intense 12 week web development bootcamp at <a href ="https://devmounta.in/" target="_blank">Dev Mountain,</a> built a prototype for a mobile daily note program for physical therapy homecare, as well as remade a website for <a href = "http://archeryidaho.com/#/" target="_blank">Archery Idaho.</a> While I still have a lot to learn, I'm ready and I'm excited.</p>
+        </div>
+      </div>
+      <div ng-show = "showWeb" class="inner cover">
+        
+        <ul class = "skillList">
+          <h2 class="cover-heading">Web Development</h2>
+          <li class="lead">AngularJS!</li>
+          <li class="lead">JQuery/JavaScript</li>
+          <li class="lead">HTML5/CSS3</li>
+          <li class="lead">NodeJS, including Express, Mongoose, and PassportJS</li>
+          <li class="lead">MongoDB/Firebase and some MySQL</li>
+          <li class="lead">Bootstrap</li>
+          <li class="lead">Some C# and PHP</li>
+        </ul>
+        <ul class = "skillList">
+          <h2 class="cover-heading">Web Experience</h2>
+          <li class="lead"><a href = "www.archeryidaho.com">www.archeryidaho.com</a></li>
+        </ul>
+      </div>
+      <div ng-show = "showPeople"  class="inner cover">
+        <ul class = "skillList">
+          <h2 class="cover-headnig">People Skills</h2>
+          <li class="lead">Fast learner</li>
+          <li class="lead">Good with people</li>
+          <li class="lead">Proficiency</li>
+          <li class="lead">Customer Service</li>
+          <li class="lead">Management</li>
+        </ul>
+        <ul class = "skillList">
+          <h2 class="cover-headnig">Other Experiences/Work History</h2>
+          <li class="lead">Domino's Pizza-Assistant Managemer</li>
+          <li class="lead">Professional Physical Therapy Aid</li>
+          <li class="lead">Full time missionary for the Church of Jesus Christ of Latter Day Saints</li>
+          <li class="lead   ">Web developer-by contract</li><br>
+        </ul>
+      </div>
+      <div ng-show = "showReferences"  class="inner cover">
+        <h2 class="cover-headnig">References</h2>
+        <p class="lead">Will be available on demand.</p>
+      </div>
+      <div ng-show = "showEducation"  class="inner cover">
+        <h2 class="cover-headnig">Education</h3>
+        <p class="lead">After falling in love with computer science, I studied web development at Dev Mountain. Now I am continuing my education at Utah Valley University in Computer Science as well as studying web development on my own.</p>
+      </div>
+    </div>
+  </div>
+  
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>See my resume on <a href="https://docs.google.com/file/d/0B1sb7t1tFi6aTVhITkVtdkRSVjg/edit" target="_blank">Google Drive</a> and check out my code on <a href="https://github.com/bragtown" target="_blank">Github</a>
+              <a href ="https://www.facebook.com/jordan.braginton" target="_blank"><img class = "socialMediaIcon" src = "images/fb.gif"></a>
+              <a href ="https://www.linkedin.com/profile/view?id=321512090&trk=nav_responsive_tab_profile" target="_blank"><img class = "socialMediaIcon" src = "images/li.gif"></p></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
